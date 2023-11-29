@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.widget {
+    width: 100%;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 2rem;
+    border-style: solid;
+    border-color: antiquewhite;
+    border-radius: 8px;
+}
+.widget img {
+    width: 4rem;
+}
+
+.main-icon {
+    display: block;
+    margin-bottom: 2rem;
+}
+.widget p img {
+    width: 1rem;
+}
+.widget button img {
+    height: 1rem;
+}
+.widget button {
+    padding: 8px ;
+    background-color: white;
+}
+
+.widget h2,
+.widget p {
+    margin: 0;
+}
+
+.widget h2 {
+    margin: .5rem 0;
+}
+
+.widget p {
+    margin-bottom: 2rem;
+}
+
+.widget p img {
+
+    margin: 0 8px 0 0;
+}
